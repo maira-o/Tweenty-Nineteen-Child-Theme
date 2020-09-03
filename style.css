@@ -234,6 +234,10 @@ img {
   background-color:#c5abdf;
 }
 
+.site-title {
+  text-align: center;
+}
+
 .site-branding {
   display: flex;
   flex-direction: column;
@@ -268,14 +272,11 @@ img {
   margin: 0;
 }
 
-.header-title {
-  text-align: right;
-}
-
 .header-title, .header-nav {
   height: 100px;
   width: 100%;
   margin: auto;
+  text-align: center;
 }
 
 .main-menu {
@@ -310,6 +311,12 @@ img {
 .main-navigation .sub-menu > li > .menu-item-link-return:hover, 
 .main-navigation .sub-menu > li > .menu-item-link-return:focus {
   background: #c5abdf;
+}
+
+ul {
+  border: 0px white solid;
+  border-radius: 2rem;
+  padding: 2rem 0;
 }
 /*sticky post*/
 

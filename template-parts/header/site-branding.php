@@ -21,10 +21,11 @@
 	</div>
 
 	<div class="header-nav">
-		<?php if ( has_nav_menu( 'menu-1' ) ) : ?>
+		 <?php if ( has_nav_menu( 'menu-1' ) ) : ?>
 
 				<nav id="site-navigation" class="main-navigation" aria-label="<?php esc_attr_e( 'Top Menu', 'twentynineteen-child' ); ?>">
-					<?php
+					
+          <?php
 					wp_nav_menu(
 						array(
 							'theme_location' => 'menu-1',
@@ -35,7 +36,7 @@
 					?>
 				</nav><!-- #site-navigation -->
 
-		<?php endif; ?>
+		<?php endif; ?> 
 	</div>
 
 </div><!-- .site-branding -->
