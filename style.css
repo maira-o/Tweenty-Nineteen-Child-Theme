@@ -300,6 +300,14 @@ img {
   font-weight: 300;
   text-decoration: none;
 }
+
+.main-navigation .sub-menu {
+  background-color: #4d095b;
+}
+
+.main-navigation .main-menu > li {
+  background-color: #4d095b;
+}
 /*sticky post*/
 
 .sticky img {
