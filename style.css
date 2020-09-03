@@ -1,0 +1,448 @@
+/*
+  Theme Name: Débora Oliveira Alqhimia - Tweenty Nineteen Child Theme
+  Description: A child theme dedicated to 'Débora Oliveira Alqhimia' web site.
+  Author: Maíra Oliveira
+  Author URI: http://mairao.com.br
+  Template: twentynineteen
+  Version: 0.1.0
+*/
+@import url("../twentynineteen/style.css");
+
+/*general*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+button,
+input,
+select,
+optgroup,
+textarea {
+  color: #111;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.author-description .author-link,
+.comment-metadata,
+.comment-reply-link,
+.comments-title,
+.comment-author .fn,
+.discussion-meta-info,
+.entry-meta,
+.entry-footer,
+.main-navigation,
+.no-comments,
+.not-found .page-title,
+.error-404 .page-title,
+.post-navigation .post-title,
+.page-links,
+.page-description,
+.pagination .nav-links,
+.sticky-post,
+.site-title,
+.site-info,
+#cancel-comment-reply-link,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page-title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+blockquote cite {
+  font-family: 'Montserrat', sans-serif;
+}
+
+pre {
+  font-family: 'Montserrat', sans-serif;
+}
+
+table {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-navigation button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-navigation .main-menu .menu-item-has-children:not(.off-canvas)[focus-within] > .sub-menu .sub-menu > li > a::before {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus-within > .sub-menu .sub-menu > li > a::before {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):hover > .sub-menu .sub-menu > li > a::before,
+.main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus > .sub-menu .sub-menu > li > a::before,
+.main-navigation .main-menu .menu-item-has-children.is-focused:not(.off-canvas) > .sub-menu .sub-menu > li > a::before {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.comment-navigation .nav-previous,
+.comment-navigation .nav-next {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.comment-list .pingback .comment-body,
+.comment-list .trackback .comment-body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.comment-list .pingback .comment-body .comment-edit-link,
+.comment-list .trackback .comment-body .comment-edit-link {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.comment-form .comment-notes,
+.comment-form label {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.widget_archive ul li,
+.widget_categories ul li,
+.widget_meta ul li,
+.widget_nav_menu ul li,
+.widget_pages ul li,
+.widget_recent_comments ul li,
+.widget_recent_entries ul li,
+.widget_rss ul li {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.widget_archive ul ul > li > a::before,
+.widget_categories ul ul > li > a::before,
+.widget_meta ul ul > li > a::before,
+.widget_nav_menu ul ul > li > a::before,
+.widget_pages ul ul > li > a::before,
+.widget_recent_comments ul ul > li > a::before,
+.widget_recent_entries ul ul > li > a::before,
+.widget_rss ul ul > li > a::before {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.widget_tag_cloud .tagcloud {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.entry .entry-content .wp-block-button .wp-block-button__link  {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.entry .entry-content .wp-block-archives li,
+.entry .entry-content .wp-block-categories li,
+.entry .entry-content .wp-block-latest-posts li {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.entry .entry-content .wp-block-verse {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.entry .entry-content .has-drop-cap:not(:focus):first-letter {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.entry .entry-content .wp-block-categories ul > li > a::before {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.entry .entry-content .wp-block-pullquote cite {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.entry .entry-content .wp-block-cover-image .wp-block-cover-image-text,
+.entry .entry-content .wp-block-cover-image .wp-block-cover-text,
+.entry .entry-content .wp-block-cover-image h2,
+.entry .entry-content .wp-block-cover .wp-block-cover-image-text,
+.entry .entry-content .wp-block-cover .wp-block-cover-text,
+.entry .entry-content .wp-block-cover h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.entry .entry-content .wp-block-audio figcaption,
+.entry .entry-content .wp-block-video figcaption,
+.entry .entry-content .wp-block-image figcaption,
+.entry .entry-content .wp-block-gallery .blocks-gallery-image figcaption,
+.entry .entry-content .wp-block-gallery .blocks-gallery-item figcaption {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.entry .entry-content .wp-block-file {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.entry .entry-content .wp-block-file .wp-block-file__button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.entry .entry-content .wp-block-latest-comments .wp-block-latest-comments__comment-meta {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wp-caption-text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.gallery-caption {
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  border-radius: 30px;
+}
+
+/*header*/
+
+#site-navigation {
+  text-align: end;
+}
+
+.menu-menu-header-container {
+  width: 100%;
+}
+
+.menu-menu-header-container a {
+  font-size: 0.8em;
+  padding: 12px;
+  display: inline-block;
+  border-radius: 40px;
+  transition: 0.5s ease-in-out;
+}
+
+.menu-menu-header-container a:hover {
+  color: lightslategrey;
+  background-color: cyan;
+}
+
+.site-header {
+  background-color:#c5abdf;
+}
+
+.site-branding {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-icon-user-area {
+  text-align: left;
+  float: left;
+}
+
+.site-title a:link {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.header-title .site-title a {
+  transition: 0.5s ease-in-out;
+}
+
+.header-title .site-title a:hover {
+  color: lightslategrey;
+}
+
+.site-title a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.entry-header {
+  margin: 0;
+}
+
+.header-title {
+  text-align: right;
+}
+
+.header-title, .header-nav {
+  height: 100px;
+  width: 100%;
+  margin: auto;
+}
+
+.main-menu {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-item {
+  text-align: center;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.main-navigation .main-menu li a {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+/*sticky post*/
+
+.sticky img {
+  -webkit-animation: pulse 1s ease-in-out;
+            animation: pulse 1s ease-in-out; /*pulse animation*/
+}
+
+@-webkit-keyframes pulse {
+  from { -webkit-transform: scale(0.8); transform: scale(0.8); }
+  to { -webkit-transform: scale(1.0); transform: scale(1.0); }
+}
+@keyframes pulse {
+  from { -webkit-transform: scale(0.8); transform: scale(0.8); }
+  to { -webkit-transform: scale(1.0); transform: scale(1.0); }
+}
+/*content*/
+
+.entry .entry-header {
+  margin: calc(2 * 1rem);
+}
+
+/* .entry .entry-header .entry-title {
+  color: lightslategrey;
+  font-size: 2em;
+  font-weight:
+} */
+
+.entry .entry-content .wp-block-image .aligncenter {
+  margin: auto;
+}
+
+.wrap-content {
+  background-color: mediumpurple;
+}
+
+.site-content {
+  border-radius: 80px 80px 0 0;
+  background-color: white;
+}
+
+.entry .entry-title:before {
+  display: none;
+}
+
+.entry .entry-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  color: lightslategrey;
+  font-size: 2em;
+}
+
+.entry .entry-title a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  color: lightslategrey;
+  font-size: 1em;
+}
+
+h1:not(.site-title):before, h2:before {
+  display: none;
+}
+
+.entry .entry-content .aligncenter {
+  margin: auto;
+}
+
+.entry-content .wp-block-button {
+  max-width: 100%;
+  text-align: center;
+}
+
+.wp-block-button a {
+  transition: all 0.5s ease 0s;
+}
+
+.wp-block-button a:hover,
+.wp-block-button a:focus {
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.5s ease 0s;
+}
+
+.entry .entry-content .wp-block-button .wp-block-button__link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  padding: 0.75rem 4rem;
+}
+
+.entry .entry-content .wp-block-button:not(.is-style-squared) .wp-block-button__link {
+    border-radius: 40px;
+}
+
+.entry .entry-content .wp-block-button .wp-block-button__link:not(.has-text-color) {
+    color: black;
+}
+
+.entry .entry-content .wp-block-button .wp-block-button__link:not(.has-background) {
+    background-color: cyan;
+}
+
+/*footer*/
+.site-footer {
+  border-radius: 80px 80px 0 0;
+  background-color: aquamarine;
+  height: 250px;
+}
+
+.menu-menu-footer-container {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+}
+
+#colophon .site-info {
+  margin: auto;
+}
+
+/* .site-footer .site-info .wp-block-button__link {
+  background-color: white;
+} */
+
+#colophon .site-info .wp-block-button {
+  text-align: center;
+}
+
+#colophon .site-info .wp-block-button__link {
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin-top: 1.5em;
+  width: 100%;
+}
+
+.social-navigation {
+  margin-top: calc(2rem / 2);
+}
+
+.footer-signature {
+  margin-bottom: 0;
+}
