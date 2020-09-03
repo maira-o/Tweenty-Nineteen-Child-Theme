@@ -10,10 +10,6 @@
 <div class="site-branding">
 
 	<div class="header-title">
-		<div class="menu-icon-user-area">
-			<a href="#">teste</a>
-		</div>
-
 		<?php $blog_info = get_bloginfo( 'name' ); ?>
 		<?php if ( ! empty( $blog_info ) ) : ?>
 			<?php if ( is_front_page() && is_home() ) : ?>
