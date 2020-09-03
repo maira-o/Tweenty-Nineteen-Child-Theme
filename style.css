@@ -305,8 +305,11 @@ img {
   background-color: #4d095b;
 }
 
-.main-navigation .main-menu > li {
-  background-color: #4d095b;
+.main-navigation .sub-menu > li > a:hover, 
+.main-navigation .sub-menu > li > a:focus, 
+.main-navigation .sub-menu > li > .menu-item-link-return:hover, 
+.main-navigation .sub-menu > li > .menu-item-link-return:focus {
+  background: #c5abdf;
 }
 /*sticky post*/
 
