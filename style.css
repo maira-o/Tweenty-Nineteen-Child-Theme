@@ -401,13 +401,13 @@ h1:not(.site-title):before, h2:before {
 }
 
 .entry .entry-content .wp-block-button .wp-block-button__link:not(.has-background) {
-    background-color: cyan;
+    background-color: #85dbca;
 }
 
 /*footer*/
 .site-footer {
   border-radius: 80px 80px 0 0;
-  background-color: aquamarine;
+  background-color: #85dbca;
   height: 250px;
 }
 
