@@ -37,8 +37,13 @@ get_header();
 				get_template_part( 'template-parts/content/content', 'none' );
 
 			}
-			?>
-					</div> <!-- .wrap-content -->
+      ?>
+        <div style="font: -webkit-small-control; width: 100%;">
+          <a style="font-size: 2rem; display: block; text-align: center;" href="#main">	
+            &#8593;
+          </a>
+        </div> 
+        </div> <!-- .wrap-content --> 
 			</main><!-- .site-main -->
 	</section><!-- .content-area -->
 

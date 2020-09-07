@@ -12,11 +12,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php
-	if ( ! is_singular() ) :
-		the_title( sprintf( '<header class="entry-header"><h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2></header>' );
-	endif;
-	?><!-- .entry-header -->
+
 	
 	<?php twentynineteen_post_thumbnail(); ?>
 
