@@ -273,7 +273,7 @@ img {
 }
 
 .header-title, .header-nav {
-  height: 100px;
+  height: 2rem;
   width: 100%;
   margin: auto;
   text-align: center;
@@ -336,7 +336,7 @@ ul {
 /*content*/
 
 .entry .entry-header {
-  margin: calc(2 * 1rem);
+  margin: calc(1 * 1rem);
 }
 
 /* .entry .entry-header .entry-title {
@@ -344,6 +344,10 @@ ul {
   font-size: 2em;
   font-weight:
 } */
+
+.wp-image-86 {
+  width: 25rem;
+}
 
 .entry .entry-content .wp-block-image .aligncenter {
   margin: auto;
@@ -375,7 +379,14 @@ ul {
   font-weight: 200;
   text-decoration: none;
   color: lightslategrey;
-  font-size: 1em;
+  font-size: 2em;
+}
+
+.entry .entry-content h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  border-top: 1px solid lightslategrey;
+  padding-top: 2rem;
 }
 
 h1:not(.site-title):before, h2:before {
@@ -399,8 +410,29 @@ h1:not(.site-title):before, h2:before {
   font-size: 1rem;
 }
 
+.site-main .entry .entry-content .wp-block-buttons {
+  margin: 1rem auto;
+} 
+
+.site-main .entry .entry-content .wp-block-button {
+  display: block;
+  margin: 0 auto;
+}
+
+.site-main .entry .entry-content h2 {
+  margin: 2.5rem auto;
+}
+
+.site-main .entry .entry-content img {
+  margin: 0 auto;
+}
+
+.site-main .entry .entry-content p {
+  margin: 1.5rem auto;
+}
+
 .site-main .wp-block-button {
-  width: 400px;
+  width: 100%;
 }
 
 .site-main .wp-block-button__link {
@@ -491,6 +523,7 @@ article .wp-block-button__link {
   border-radius: 80px 80px 0 0;
   background-color: #85dbca;
   height: 250px;
+  margin-top: 2rem;
 }
 
 .menu-menu-footer-container {
