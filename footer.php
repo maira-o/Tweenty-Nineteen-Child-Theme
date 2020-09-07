@@ -33,10 +33,12 @@
 					?>
 				</nav><!-- .social-navigation -->
 				<div class="wp-block-button">
-					<a class="wp-block-button__link" href="#">Entre em contato</a>
+          <a class="wp-block-button__link" href="http://bit.ly/whatsdeboraalqhimista">
+            Inicie conversa no WhatsApp
+          </a>
 				</div>
 			<?php endif; ?>
-			<p class="footer-signature">Débora Oliveira Alqhimia . 2019</p>
+			<p class="footer-signature">&copy;Débora Oliveira Alqhimia . 2020</p>
 			<?php
 			if ( function_exists( 'the_privacy_policy_link' ) ) {
 				the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
