@@ -107,6 +107,9 @@ a:focus {
 		 * is followed by an H1, or H2 */
 }
 
+.entry .entry-content .entry-footer a {
+  text-decoration: none;
+}
 
 .button,
 button,
@@ -726,3 +729,10 @@ svg {
   opacity: 1;
   border-bottom: 0;
 }
+
+.site-main .entry .entry-content ul {
+  margin: 1.5rem auto;
+  font-size: 18px;
+  text-align: center;
+}
+
